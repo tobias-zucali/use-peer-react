@@ -1,5 +1,5 @@
 {
-  "name": "@MidoAhmed/rollup-react-library-starter",
+  "name": "@tobias-zucali/use-peer-react",
   "version": "0.1.0",
   "description": "Template and quick-starter to create modern React libraries using Rollup.",
   "main": "dist/cjs/bundle.js",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/MidoAhmed"
+    "registry": "https://npm.pkg.github.com/tobias-zucali"
   },
   "scripts": {
     "build": "rimraf dist && rollup -c",
@@ -23,9 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MidoAhmed/rollup-react-library-starter.git"
+    "url": "git+https://github.com/tobias-zucali/use-peer-react.git"
   },
-  "author": "MidoAhmed",
+  "author": "tobias-zucali",
   "license": "MIT",
   "keywords": [
     "react-template",
@@ -35,13 +35,15 @@
     "template"
   ],
   "bugs": {
-    "url": "https://github.com/MidoAhmed/rollup-react-library-starter/issues"
+    "url": "https://github.com/tobias-zucali/use-peer-react/issues"
   },
-  "homepage": "https://MidoAhmed.github.io/rollup-react-library-starter",
+  "homepage": "https://tobias-zucali.github.io/use-peer-react",
   "peerDependencies": {
     "antd": "^5.4.0",
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "lodash": "^4.17.21",
+    "peerjs": "^1.5.1",
+    "react-dom": ">=16.8.0",
+    "react": ">=16.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
